@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, Bhuvana!</title>
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,700;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- floating balloons layer -->
+<div class="balloon-field" id="balloonField" aria-hidden="true"></div>
+
+<!-- confetti canvas -->
+<canvas id="confettiCanvas"></canvas>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <p class="eyebrow">a little something for</p>
+    <div class="photo-frame">
+      <img src="images/bhuvi.jpg" alt="Photo of Bhuvana" id="birthdayPhoto">
+      <svg class="frame-ring" viewBox="0 0 220 220">
+        <circle cx="110" cy="110" r="104" />
+      </svg>
+    </div>
+    <h1 class="name">Bhuvana</h1>
+    <p class="tagline">Today the calendar finally agrees with the rest of us —<br>it's officially your day.</p>
+
+    <button class="btn-celebrate" id="celebrateBtn">
+      Tap to celebrate <span class="spark">✦</span>
+    </button>
+  </section>
+
+  <!-- WISH -->
+  <section class="wish-section">
+    <div class="wish-card">
+      <span class="quote-mark">“</span>
+      <p class="wish-text">
+        Happy Birthday to my dearest Akka! ❤️🎂 You are one of the most special people in my life, and I feel truly blessed to have you as my sister. Thank you for always supporting me, guiding me, and being there for me whenever I need you. 🥹❤️ This birthday is even more special because a beautiful new chapter is about to begin in your life. Soon, you’re going to become a wonderful mother, and I’m so excited to welcome our little one into the family. 🍼👶❤️ May this new journey bring you endless happiness, love, and beautiful memories. Wishing you good health, success, and a lifetime of happiness. Happy Birthday, Akka! 🎉❤️ Love you always!.
+      </p>
+      <span class="wish-signoff">— with love, always</span>
+    </div>
+  </section>
+
+  <!-- CAKE -->
+  <section class="cake-section">
+    <h2 class="section-title">Make a wish</h2>
+    <p class="section-sub">Blow out the candles — go on, click each one.</p>
+
+    <div class="cake" id="cake">
+      <div class="candle" data-lit="true">
+        <div class="flame"></div>
+        <div class="stick"></div>
+      </div>
+      <div class="candle" data-lit="true">
+        <div class="flame"></div>
+        <div class="stick"></div>
+      </div>
+      <div class="candle" data-lit="true">
+        <div class="flame"></div>
+        <div class="stick"></div>
+      </div>
+      <div class="tier tier-top"></div>
+      <div class="tier tier-bottom"></div>
+      <div class="plate"></div>
+    </div>
+
+    <p class="cake-message" id="cakeMessage">3 candles left to blow out</p>
+  </section>
+
+  <footer class="site-footer">
+    <p>Made with <span class="heart">♥</span> for Bhuvana's birthday</p>
+  </footer>
+
+</main>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="js/script.js"></script>
+</body>
+</html>
